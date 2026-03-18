@@ -31,4 +31,15 @@ h1{
     width: 100%;
     padding: 20px;
 }
-
+.icon{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    transition: 0.3s;
+    opacity: 0.9;
+    padding-right: 5px;
+}
+.icon:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}   
