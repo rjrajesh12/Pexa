@@ -19,7 +19,7 @@
     display: flex;
     padding: 20px;
     gap: 45px;
-    background: linear-gradient(75deg,rgb(223, 193, 193),rgb(207, 84, 35));
+    background: linear-gradient(75deg,rgb(216, 172, 90),rgb(219, 116, 79));
 }
 .page p{
     font-weight: bold;
