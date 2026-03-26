@@ -16,7 +16,7 @@ bottom:25%;
 }
 
 h1,p{
-text-shadow:2px 2px 10px rgba(0,0,0,0.7);
+
 opacity: 0.9;
 }
 .position-relative img{
@@ -135,11 +135,13 @@ h1{
             align-items: center;
             gap: 30px;
             color: #444;
+            
           }
           .para{
             
              gap: 30px;
-            color: #444;  
+            color: #444; 
+            
           }
           .para:hover{
             
@@ -147,14 +149,24 @@ h1{
             color: black;
           }
           .f1{
-            background: #c0b8b8;
-          }
+            background: #e0dbdb;
+            padding-bottom: 30px;
+            padding-top: 20px;
+          }   
           .race{
             display: flex;
             justify-content: center;
             gap: 30px;
-            height: 500px;
+            height: 400px;
             cursor: pointer;
+          }
+          .race img{
+            border-radius: 15px;
+            transition: transform .5s; 
+          }
+          .race img:hover{
+              transform: scale(1.1);
+              box-shadow: 0 8px 16px rgba(36, 35, 35, 0.959);  
           }
           .f1 h2{
             font-size: 35px;
@@ -168,4 +180,5 @@ h1{
             opacity: 0.9;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
           }
+          
          

@@ -1,62 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.icon{
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-    transition: 0.3s;
-    opacity: 0.9;
-    padding-right: 5px;
-}
-.icon:hover {
-    transform: translateY(-5px);
-    cursor: pointer;
-}
-
-.page p{
-  display: flex;
-    font-weight: bold;
-    opacity: 0.9;
-    font-size: 40px;
-    justify-content: center;
-    align-items: center;
-    padding-top:20px ;
-}
-        
-
-        .car-img {
-            border-radius: 15px;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .price {
-            font-size: 22px;
-            font-weight: 600;
-        }
-
-        .emi-box {
-            background: #eef1f3;
-            padding: 15px;
-            border-radius: 10px;
-        }
-
-        .offer-btn {
-            background: #e52d12;
-            color: white;
-            font-weight: 600;
-            border-radius: 10px;
-            padding: 12px;
-        }
-
-        .offer-btn:hover {
-            background: #c8260f;
-        }
-        body {
+ body {
            margin: 0;
            font-family: Arial, sans-serif;
           }
@@ -134,12 +76,72 @@
             color: #444;
           }
           .para{
-            
+            font-size: 15px;
+            font-weight: bold;
+            padding-top: 10px;
              gap: 30px;
             color: #444;  
           }
           .para:hover{
-            
             cursor: pointer;
             color: black;
           }
+          .form{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+          }
+          .form-title{
+            font-size: 25px;
+            padding-top: 10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bold;
+            opacity: 0.9;
+          }
+          .input-container{
+            position: relative;
+          }
+          .input-container input, .form button {
+            outline: none;
+            border: 1px solid #e5e7eb;
+            margin: 8px 0;
+          }
+          .input-container input{
+            background-color: #fff;
+            padding: 1rem;
+            padding-right: 3rem;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            width: 300px;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+          }
+          .submit{
+            display: block;
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+            padding-left: 1.25rem;
+            padding-right: 1.25rem;
+            background-color: #443faf;
+            color: #ffffff;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            font-weight: 500;
+            width: 100%;
+            border-radius: 0.5rem;
+            text-transform: uppercase;
+          }
+          .submit:hover{
+            background-color: #342f97;
+          }
+          .signup-link {
+            color: #6B7280;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            text-align: center;
+          }
+          .signup-link a {
+            text-decoration: underline;
+          }
+

@@ -3,99 +3,7 @@
 <head>
     <title>PEXA</title>
          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
-    <style>
-        body {
-           margin: 0;
-           font-family: Arial, sans-serif;
-          }
-        .footer{
-          background-color: #f2f2f2;
-          padding: 50px 80px;
-        }
-        .container{
-          display: flex;
-          justify-content: space-between;
-          flex-wrap: wrap;
-        }
-        .column{
-          width: 30%;
-          min-width: 250px;
-        }
-        h3{
-          font-size: 22px;
-          margin-bottom: 15px;
-          color: #222;
-        }
-        ul {
-          list-style: none;
-          padding: 0;
-        }
-        ul li {
-          margin-bottom: 10px;
-          color: #555;
-          cursor: pointer;
-          transition: 0.3s;
-        }
-        ul li:hover {
-          color: #000;
-        }
-        .mt {
-          margin-top: 40px;
-        }
-        .icons{
-          display: flex;
-          justify-content: center;   /* center horizontally */
-          align-items: center;
-          gap: 30px;                 /* space between icons */
-          padding: 30px 0;
-          
-        }
-        .social{
-          font-size: 32px;
-          height: 28px;
-          width: 28px;
-          color: #555;
-          cursor: pointer;
-          transition: 0.3s;
-        }
-        .social:hover{
-          transform: scale(1.2);
-          color: black;
-        }
-        .icon{
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-    transition: 0.3s;
-    opacity: 0.9;
-    padding-right: 5px;
-}
-       .icon:hover {
-          transform: translateY(-5px);
-            cursor: pointer;
-          }
-          .foot{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 30px;
-            color: #444;
-          }
-          .para{
-            
-             gap: 30px;
-            color: #444;  
-          }
-          .para:hover{
-            
-            cursor: pointer;
-            color: black;
-          }
-
-        
-   
-    </style>
+         <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
@@ -144,6 +52,24 @@
     </div>
 </nav>
 
+<form class="form">
+  <p class="form-title">Sign in to your account</p>
+  <div class="input-container">
+          <input type="email" placeholder="Enter email">
+      </div>
+      
+      <div class="input-container">
+          <input type="password" placeholder="Enter password">
+        </div>
+         <button type="submit" class="submit">
+        Sign in
+      </button>
+
+      <p class="signup-link">
+        No account?
+        <a href="">Sign up</a>
+      </p>
+</form>
 <section class="footer">
   <div class="container">
 
