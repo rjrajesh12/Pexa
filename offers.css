@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.offers{
+    background: linear-gradient(10deg,rgb(21, 44, 21), rgb(239, 239, 241));
+    
+}
+.offers h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.title{
+    display: flex;
+    font-size: 30px;
+    font-weight:bold ;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    margin-top: 10px;
+}
+
+.car-img {
+            border-radius: 15px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 20px;
+        }
+
+        .price {
+            font-size: 22px;
+            font-weight: 600;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .emi-box {
+            background: #eef1f3;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .rs{
+            text-decoration: line-through;
+           font-family: 'Courier New', Courier, monospace;
+        }
+        .dis{
+            text-decoration: underline;
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(21, 21, 102);
+        }
+        
